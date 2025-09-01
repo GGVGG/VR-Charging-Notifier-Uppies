@@ -24,7 +24,7 @@ You can download the latest version of the VR Charging Notifier here:
 
 ## Installation
 
-1. Download the `VR_Charging_Notifier.exe` from the [Releases](https://github.com/itsneptunia/VR-Charging-Notifier/releases/tag/v1.1) page.
+1. Download the `charger_notifier.v1.1.exe` from the [Releases](https://github.com/itsneptunia/VR-Charging-Notifier/releases/tag/v1.1) page.
 2. Make a folder for the .exe (Recommended but not a must!)
 3. Run the executable to start the app.
 You can manually set the app to start with SteamVR (optional but convenient)
