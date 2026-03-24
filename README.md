@@ -1,4 +1,4 @@
-# VR Charging Notifier v1.1 I COMMITTED A CRIME
+# VR Charging Notifier v1.1
 
 A charging status notifier for your VR headset, with cute cat GIFs and sound alerts for charging status. Choose between Warframe-like male and female voice notifications! (Current version doesn't have an option for no human voice reminder)
 
