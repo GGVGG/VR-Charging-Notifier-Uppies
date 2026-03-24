@@ -148,8 +148,12 @@ class ChargingApp(tk.Tk):
             self.reminder_timer = self.after(180_000, self.play_reminder)
 
     def init_openvr(self):
-        openvr.init(openvr.VRApplication_Background)
-        self.vr_system = openvr.VRSystem()
+        try:
+            openvr.init(openvr.VRApplication_Background)
+            self.vr_system = openvr.VRSystem()
+        except openvr.OpenVRError as e:
+            print(f"VR Init failed: {e}")
+            self.vr_system = None
 
     def check_charging(self):
         if self.vr_system is not None:
