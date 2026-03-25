@@ -1,0 +1,17 @@
+{
+	"source" : "builtin",
+	"applications": [{
+		"app_key": "uppy.VRChargingStatusModified",
+		"launch_type": "binary",
+		"binary_path_windows": "charger_notifier.exe",
+		"is_dashboard_overlay": true,
+		"is_command_line_tool": false,
+
+		"strings": {
+			"en_us": {
+				"name": "VR Charging Status Modified",
+				"description": "Yells at you when your headset changes charging state"
+			}
+		}
+	}]
+}

@@ -42,4 +42,4 @@ I don't get paid for any of this so any tips are much appreciated!
 ☕ [Ko-Fi/itsnep](https://ko-fi.com/itsnep)
 
 
-```pyinstaller --onefile --noconsole --add-binary "libopenvr_api_64.dll;openvr" --add-data "assets;assets" --icon="assets/pawicon.ico" charger_notifier.py```
+```pyinstaller --onefile --noconsole --add-binary "libopenvr_api_64.dll;openvr" --add-data "assets;assets" --add-data "manifest.vrmanifest;." --icon="assets/pawicon.ico" charger_notifier.py```

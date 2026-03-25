@@ -5,7 +5,7 @@ a = Analysis(
     ['charger_notifier.py'],
     pathex=[],
     binaries=[('libopenvr_api_64.dll', 'openvr')],
-    datas=[('assets', 'assets')],
+    datas=[('assets', 'assets'), ('manifest.vrmanifest', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
